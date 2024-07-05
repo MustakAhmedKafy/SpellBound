@@ -298,7 +298,7 @@ header {
 .img-wrapper {
   width: 100%;
   overflow: hidden;
-    border-radius: 10px;
+  border-radius: 10px;
 }
 .inner-img {
   transition: 0.3s;
@@ -874,6 +874,10 @@ footer .copy-right {
   .team .shadow-left,
   .team .shadow-right {
     display: none;
+  }
+  .animate__animated {
+    animation: none !important;
+    opacity: 1 !important; /* To prevent fade-in animations */
   }
 }
 
